@@ -32,6 +32,8 @@
     [super viewDidLoad];
     self.navigationItem.title = @"首页";
     
+    NSLog(@"homeid:%@",_homeID);
+    
 }
 
 - (void)didReceiveMemoryWarning
