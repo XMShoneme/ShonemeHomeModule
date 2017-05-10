@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ShonemeHomeModule"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "ShonemeHomeModule."
 
   # This description is used to generate tags and improve search results.
@@ -96,11 +96,11 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "Classes/**/*.h"
 
-    s.subspec 'VC' do |vc|
+  s.subspec 'VC' do |vc|
     vc.source_files = 'ShonemeHomeModule/ShonemeHomeModule/HomeLogic/VC/*.{h,m}'
   end
 
-   s.subspec 'Targets' do |targets|
+  s.subspec 'Targets' do |targets|
     targets.source_files = 'ShonemeHomeModule/ShonemeHomeModule/HomeLogic/Targets/*.{h,m}'
     targets.dependency 'ShonemeHomeModule/VC'
   end
