@@ -1,0 +1,12 @@
+PODS:
+  - XMBaseObjectModule (1.0.0)
+
+DEPENDENCIES:
+  - XMBaseObjectModule
+
+SPEC CHECKSUMS:
+  XMBaseObjectModule: bbb16a87809ead1d8c77f79ac03725902481125f
+
+PODFILE CHECKSUM: d733749c12debe83bfd270a943c67bdfd3e027e3
+
+COCOAPODS: 1.2.1
