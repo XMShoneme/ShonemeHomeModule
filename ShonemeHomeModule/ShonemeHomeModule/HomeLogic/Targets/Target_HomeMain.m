@@ -13,8 +13,7 @@
 
 - (UIViewController *)Action_viewControllerWithDic:(NSDictionary *)params
 {
-    HomeMainVC *viewController = [[HomeMainVC alloc] init];
-    viewController.homeID = params[@"key"];
+    HomeMainVC *viewController = [[HomeMainVC alloc] initWithHomeID:params[@"key"]];
     return viewController;
 }
 
