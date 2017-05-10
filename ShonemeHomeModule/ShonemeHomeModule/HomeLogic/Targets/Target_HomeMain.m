@@ -11,9 +11,10 @@
 
 @implementation Target_HomeMain
 
-- (UIViewController *)Action_viewController:(NSDictionary *)params
+- (UIViewController *)Action_viewControllerWithDic:(NSDictionary *)params
 {
     HomeMainVC *viewController = [[HomeMainVC alloc] init];
+    viewController.homeID = params[@"key"];
     return viewController;
 }
 

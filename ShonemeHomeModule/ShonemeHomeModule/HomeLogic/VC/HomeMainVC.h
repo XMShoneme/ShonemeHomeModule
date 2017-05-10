@@ -10,4 +10,6 @@
 
 @interface HomeMainVC : BaseViewController
 
+@property (nonatomic,copy) NSString *homeID; //随便模拟了一个参数
+
 @end
