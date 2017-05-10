@@ -100,9 +100,9 @@ Pod::Spec.new do |s|
     vc.source_files = 'ShonemeHomeModule/ShonemeHomeModule/HomeLogic/VC/*.{h,m}'
   end
 
-   s.subspec 'Actions' do |actions|
-    actions.source_files = 'ShonemeHomeModule/ShonemeHomeModule/HomeLogic/Actions/*.{h,m}'
-    actions.dependency 'ShonemeMineModule/VC'
+   s.subspec 'Targets' do |targets|
+    targets.source_files = 'ShonemeHomeModule/ShonemeHomeModule/HomeLogic/Actions/*.{h,m}'
+    targets.dependency 'ShonemeMineModule/VC'
   end
 
 

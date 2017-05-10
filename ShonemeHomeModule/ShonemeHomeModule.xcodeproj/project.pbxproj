@@ -18,6 +18,9 @@
 		A49ADA771EC29C8F002B9D6D /* HomeMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A49ADA761EC29C8F002B9D6D /* HomeMainVC.m */; };
 		A49ADA781EC29C8F002B9D6D /* HomeMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A49ADA761EC29C8F002B9D6D /* HomeMainVC.m */; };
 		A49ADA791EC29C8F002B9D6D /* HomeMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A49ADA761EC29C8F002B9D6D /* HomeMainVC.m */; };
+		A49ADA811EC2A069002B9D6D /* Target_HomeMain.m in Sources */ = {isa = PBXBuildFile; fileRef = A49ADA801EC2A069002B9D6D /* Target_HomeMain.m */; };
+		A49ADA821EC2A069002B9D6D /* Target_HomeMain.m in Sources */ = {isa = PBXBuildFile; fileRef = A49ADA801EC2A069002B9D6D /* Target_HomeMain.m */; };
+		A49ADA831EC2A069002B9D6D /* Target_HomeMain.m in Sources */ = {isa = PBXBuildFile; fileRef = A49ADA801EC2A069002B9D6D /* Target_HomeMain.m */; };
 		D585FF7DAED6F7B65A3371D8 /* libPods-ShonemeHomeModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B898F60AAD991E2FADD0ADFA /* libPods-ShonemeHomeModule.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +61,8 @@
 		A49ADA661EC29BDC002B9D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A49ADA751EC29C8F002B9D6D /* HomeMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMainVC.h; sourceTree = "<group>"; };
 		A49ADA761EC29C8F002B9D6D /* HomeMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeMainVC.m; sourceTree = "<group>"; };
+		A49ADA7F1EC2A069002B9D6D /* Target_HomeMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_HomeMain.h; sourceTree = "<group>"; };
+		A49ADA801EC2A069002B9D6D /* Target_HomeMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_HomeMain.m; sourceTree = "<group>"; };
 		B898F60AAD991E2FADD0ADFA /* libPods-ShonemeHomeModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShonemeHomeModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21DED7FAAC6FD0F12C0C0A5 /* Pods-ShonemeHomeModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShonemeHomeModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShonemeHomeModule/Pods-ShonemeHomeModule.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,7 +178,7 @@
 		A49ADA721EC29C57002B9D6D /* HomeLogic */ = {
 			isa = PBXGroup;
 			children = (
-				A49ADA741EC29C71002B9D6D /* Actions */,
+				A49ADA7E1EC2A042002B9D6D /* Targets */,
 				A49ADA731EC29C57002B9D6D /* VC */,
 			);
 			path = HomeLogic;
@@ -188,11 +193,13 @@
 			path = VC;
 			sourceTree = "<group>";
 		};
-		A49ADA741EC29C71002B9D6D /* Actions */ = {
+		A49ADA7E1EC2A042002B9D6D /* Targets */ = {
 			isa = PBXGroup;
 			children = (
+				A49ADA7F1EC2A069002B9D6D /* Target_HomeMain.h */,
+				A49ADA801EC2A069002B9D6D /* Target_HomeMain.m */,
 			);
-			path = Actions;
+			path = Targets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,6 +392,7 @@
 				A49ADA471EC29BDC002B9D6D /* ViewController.m in Sources */,
 				A49ADA441EC29BDC002B9D6D /* AppDelegate.m in Sources */,
 				A49ADA771EC29C8F002B9D6D /* HomeMainVC.m in Sources */,
+				A49ADA811EC2A069002B9D6D /* Target_HomeMain.m in Sources */,
 				A49ADA411EC29BDC002B9D6D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +401,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49ADA821EC2A069002B9D6D /* Target_HomeMain.m in Sources */,
 				A49ADA781EC29C8F002B9D6D /* HomeMainVC.m in Sources */,
 				A49ADA5A1EC29BDC002B9D6D /* ShonemeHomeModuleTests.m in Sources */,
 			);
@@ -402,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49ADA831EC2A069002B9D6D /* Target_HomeMain.m in Sources */,
 				A49ADA791EC29C8F002B9D6D /* HomeMainVC.m in Sources */,
 				A49ADA651EC29BDC002B9D6D /* ShonemeHomeModuleUITests.m in Sources */,
 			);
@@ -627,6 +637,7 @@
 				A49ADA6B1EC29BDC002B9D6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A49ADA6C1EC29BDC002B9D6D /* Build configuration list for PBXNativeTarget "ShonemeHomeModuleTests" */ = {
 			isa = XCConfigurationList;
@@ -635,6 +646,7 @@
 				A49ADA6E1EC29BDC002B9D6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A49ADA6F1EC29BDC002B9D6D /* Build configuration list for PBXNativeTarget "ShonemeHomeModuleUITests" */ = {
 			isa = XCConfigurationList;
@@ -643,6 +655,7 @@
 				A49ADA711EC29BDC002B9D6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
