@@ -102,7 +102,7 @@ Pod::Spec.new do |s|
 
    s.subspec 'Targets' do |targets|
     targets.source_files = 'ShonemeHomeModule/ShonemeHomeModule/HomeLogic/Targets/*.{h,m}'
-    targets.dependency 'ShonemeMineModule/VC'
+    targets.dependency 'ShonemeHomeModule/VC'
   end
 
 
